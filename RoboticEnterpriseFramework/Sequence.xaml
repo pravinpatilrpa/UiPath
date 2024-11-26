@@ -105,7 +105,7 @@
         </OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">Prajakta</InArgument>
+        <InArgument x:TypeArguments="x:String" xml:space="preserve">Prajakta </InArgument>
       </Assign.Value>
     </Assign>
     <Assign sap:VirtualizedContainerService.HintSize="434,116" sap2010:WorkflowViewState.IdRef="Assign_1">

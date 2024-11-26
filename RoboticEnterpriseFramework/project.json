@@ -2,7 +2,7 @@
   "name": "RoboticEnterpriseFramework",
   "projectId": "5a924f4b-2bca-4ef3-815b-cced3e55aebb",
   "description": "Robotic Enterprise Framework",
-  "main": "Main.xaml",
+  "main": "Sequence.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.24.2]",
     "UiPath.Mail.Activities": "[1.24.0]",
@@ -16,6 +16,7 @@
   "studioVersion": "24.10.5.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
@@ -95,6 +96,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "e526955b-82be-4835-bfaf-fc551a8d4f4e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence.xaml",
+      "uniqueId": "fafa4da8-25d1-4a93-b03f-8638eeed3bfc",
       "input": [],
       "output": []
     }
